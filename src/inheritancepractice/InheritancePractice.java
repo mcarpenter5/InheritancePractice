@@ -48,10 +48,20 @@ public class InheritancePractice {
         System.out.println("How are you paid in this company? Says the Manager.");
         System.out.println(s.getName() + " " + "Replies...");
         s.pay();
-        
-        //SalaryPlusCommissionEmployee
-        
-       // SalaryPlusCommissionEmployee c = new SalaryPlusCommissionEmployee
+        //Salary plus commission , can't figure out how to get this to work with using salaried as superclass
+        SalaryPlusCommissionEmployee c = new SalaryPlusCommissionEmployee();
+        c.setAge(40);
+        c.setName("Jill Johnson");
+        c.setIdNumber("070707");
+        String dou = c.doughnuts();
+        System.out.println("Hi, my name is" + " " + c.getName() + " " 
+                + ",My ID number is" + " " + c.getIdNumber() + " "+ " " 
+                + ",My age is" + " " + " " + c.getAge()+ " " 
+                + ",and I bring"+" " + lun +" "+ "to company meetings");
+        System.out.println("How are you paid in this company? Says the Manager.");
+        System.out.println(c.getName() + " " + "Replies...");
+        c.pay();
+       
                 
         
     }

@@ -49,6 +49,6 @@ public class Employee {
         this.IdNumber = IdNumber;
     }
     public void pay(){
-        System.out.println("Depends on what employee you are....");
+        System.out.println("Depends on what employee am I....");
     }
 }

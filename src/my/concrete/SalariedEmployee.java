@@ -15,6 +15,7 @@ public class SalariedEmployee extends Employee {
     
     public SalariedEmployee(){
         
+        
     }
     public SalariedEmployee(int age, String name, String IdNumber) {
         super(age, name, IdNumber);

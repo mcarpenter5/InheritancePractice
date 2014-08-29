@@ -10,7 +10,7 @@ package my.concrete;
  *
  * @author Michael Carpenter
  */
-public class SalaryPlusCommissionEmployee extends SalariedEmployee {
+public class SalaryPlusCommissionEmployee extends Employee {
     
     
     public SalaryPlusCommissionEmployee(){
