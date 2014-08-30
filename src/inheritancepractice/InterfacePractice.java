@@ -15,7 +15,7 @@ import myinterface.SalaryPlusCommissionEmployee;
  *
  * @author dominicalaus
  */
-public class Example2 {
+public class InterfacePractice {
     public static void main(String[] args) {
     Employee [] employee = {
         new HourlyEmployee(30,"John Smith","090909"),
