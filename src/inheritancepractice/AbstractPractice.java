@@ -23,7 +23,7 @@ public class AbstractPractice {
     };
     
     for(Employee e : employee) {
-        e.pay();
+        e.getPay();
     }
     }
 }

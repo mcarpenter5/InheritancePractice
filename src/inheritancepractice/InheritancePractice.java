@@ -33,7 +33,7 @@ public class InheritancePractice {
                 + ",and I bring"+" " + coff +" "+ "to company meetings");
         System.out.println("How are you paid in this company? Says the Manager.");
         System.out.println(b.getName() + " " + "Replies...");
-        b.pay();
+        b.getPay();
         
         
         //Salaried Employee
@@ -48,7 +48,7 @@ public class InheritancePractice {
                 + ",and I bring"+" " + lun +" "+ "to company meetings");
         System.out.println("How are you paid in this company? Says the Manager.");
         System.out.println(s.getName() + " " + "Replies...");
-        s.pay();
+        s.getPay();
         s.setAnnualSalary(50000);
         System.out.println(s.getAnnualSalary() + " " + "is my salary ");
         
@@ -65,7 +65,7 @@ public class InheritancePractice {
                 + ",and I bring"+" " + dou +" "+ "to company meetings");
         System.out.println("How are you paid in this company? Says the Manager.");
         System.out.println(c.getName() + " " + "Replies...");
-        c.pay();
+        c.getPay();
         
                 
         

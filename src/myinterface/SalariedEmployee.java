@@ -44,7 +44,7 @@ public class SalariedEmployee implements Employee {
     }
 
     @Override
-    public void pay() {
+    public void getPay() {
         System.out.println("I am salary paid");
     }
 

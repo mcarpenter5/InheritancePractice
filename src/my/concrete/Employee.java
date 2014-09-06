@@ -48,7 +48,7 @@ public class Employee {
     public void setIdNumber(String IdNumber) {
         this.IdNumber = IdNumber;
     }
-    public void pay(){
+    public void getPay(){
         System.out.println("Depends on what employee am I....");
     }
 }

@@ -24,7 +24,7 @@ public class SalaryPlusCommissionEmployee extends SalariedEmployee {
     }
     
     @Override
-    public void pay(){
+    public void getPay(){
         System.out.println("I am salary paid + commission!");
     }
     //Unique to this class, they have to being doughnuts to the meetings

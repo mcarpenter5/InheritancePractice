@@ -24,7 +24,7 @@ public class InterfacePractice {
     };
     
     for(Employee e : employee) {
-        e.pay();
+        e.getPay();
     }
     }
 }

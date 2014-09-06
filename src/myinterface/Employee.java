@@ -11,7 +11,7 @@ package myinterface;
  * @author dominicalaus
  */
 public interface Employee {
-    public abstract void pay();
+    public abstract void getPay();
     
     public abstract int getAge();
 

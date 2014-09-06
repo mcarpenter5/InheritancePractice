@@ -21,7 +21,7 @@ public class HourlyEmployee extends Employee {
     }
     //Overrides the pay to hourly
     @Override
-    public void pay(){
+    public void getPay(){
         System.out.println("I am paid hourly");
     }
     

@@ -19,7 +19,7 @@ public class HourlyEmployee extends Employee {
     }
     
     @Override
-    public void pay() {
+    public void getPay() {
         System.out.println("Hourly");
     }
     public String coffee(){

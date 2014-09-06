@@ -49,5 +49,5 @@ public abstract class  Employee {
     public void setIdNumber(String IdNumber) {
         this.IdNumber = IdNumber;
     }
-    public abstract void pay();
+    public abstract void getPay();
 }

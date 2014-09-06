@@ -31,7 +31,7 @@ public class SalariedEmployee extends Employee {
     }
     //Overriding the pay method
     @Override
-    public void pay(){
+    public void getPay(){
         System.out.println("I am salary paid");
     }
     //Unique to this class, they have to bring the lunch for the meetings
