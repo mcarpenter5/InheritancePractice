@@ -5,12 +5,16 @@
  */
 
 package inheritancepractice;
+
 import myabstract.Employee;
 import myabstract.HourlyEmployee;
 import myabstract.SalariedEmployee;
 import myabstract.SalaryPlusCommissionEmployee;
 
 public class AbstractPractice {
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
          Employee [] employee = {
         new HourlyEmployee(30,"John Smith","090909"),

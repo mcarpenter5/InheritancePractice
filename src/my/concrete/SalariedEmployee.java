@@ -11,14 +11,23 @@ package my.concrete;
  * @author Michael Carpenter
  */
 public class SalariedEmployee extends Employee {
-    
+    private double annualSalary;
     
     public SalariedEmployee(){
         
         
     }
-    public SalariedEmployee(int age, String name, String IdNumber) {
+
+    public SalariedEmployee(int age, String name, String IdNumber,double annualSalary) {
         super(age, name, IdNumber);
+    }
+    
+    public double getAnnualSalary() {
+        return annualSalary;
+    }
+
+    public void setAnnualSalary(double annualSalary) {
+        this.annualSalary = annualSalary;
     }
     //Overriding the pay method
     @Override

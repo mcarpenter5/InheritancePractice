@@ -6,6 +6,7 @@
 
 package inheritancepractice;
 
+import my.concrete.Employee;
 import my.concrete.HourlyEmployee;
 import my.concrete.SalariedEmployee;
 import my.concrete.SalaryPlusCommissionEmployee;
@@ -48,7 +49,11 @@ public class InheritancePractice {
         System.out.println("How are you paid in this company? Says the Manager.");
         System.out.println(s.getName() + " " + "Replies...");
         s.pay();
-        //Salary plus commission , can't figure out how to get this to work with using salaried as superclass
+        s.setAnnualSalary(50000);
+        System.out.println(s.getAnnualSalary() + " " + "is my salary ");
+        
+        
+        
         SalaryPlusCommissionEmployee c = new SalaryPlusCommissionEmployee();
         c.setAge(40);
         c.setName("Jill Johnson");
@@ -57,11 +62,11 @@ public class InheritancePractice {
         System.out.println("Hi, my name is" + " " + c.getName() + " " 
                 + ",My ID number is" + " " + c.getIdNumber() + " "+ " " 
                 + ",My age is" + " " + " " + c.getAge()+ " " 
-                + ",and I bring"+" " + lun +" "+ "to company meetings");
+                + ",and I bring"+" " + dou +" "+ "to company meetings");
         System.out.println("How are you paid in this company? Says the Manager.");
         System.out.println(c.getName() + " " + "Replies...");
         c.pay();
-       
+        
                 
         
     }

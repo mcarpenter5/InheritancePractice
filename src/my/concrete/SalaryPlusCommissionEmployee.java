@@ -10,12 +10,19 @@ package my.concrete;
  *
  * @author Michael Carpenter
  */
-public class SalaryPlusCommissionEmployee extends Employee {
+public class SalaryPlusCommissionEmployee extends SalariedEmployee {
     
     
-    public SalaryPlusCommissionEmployee(){
-        
+   private double commission;
+
+    public double getCommission() {
+        return commission;
     }
+
+    public void setCommission(double commission) {
+        this.commission = commission;
+    }
+    
     @Override
     public void pay(){
         System.out.println("I am salary paid + commission!");
